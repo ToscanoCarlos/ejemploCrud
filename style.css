@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff3e0; 
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+  }
+  
+  h1 {
+    color: #ff9800;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-top: 10px;
+    color: #ff9800;
+  }
+  
+  input,
+  select {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ffb74d;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus,
+  select:focus {
+    outline: none;
+    border-color: #ff9800;
+    box-shadow: 0 0 5px rgba(255, 152, 0, 0.5);
+  }
+  
+  button {
+    background-color: #ff9800;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #f57c00; 
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  th {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  tr {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  td:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  td:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .btn-editar,
+  .btn-eliminar {
+    padding: 8px 12px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-editar {
+    background-color: #ffb74d; 
+    color: white;
+    border: none;
+  }
+  
+  .btn-editar:hover {
+    background-color: #ffa726;
+  }
+  
+  .btn-eliminar {
+    background-color: #ff5722; 
+    color: white;
+    border: none;
+  }
+  
+  .btn-eliminar:hover {
+    background-color: #e64a19;
+  }
+  
+  
